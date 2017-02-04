@@ -19,7 +19,7 @@
         <a type="button" class="btn btn-lg btn-default"
            href="https://devcenter.heroku.com/articles/getting-started-with-java"><span
                 class="glyphicon glyphicon-flash"></span> Getting Started with Java</a>
-        <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/java-getting-started"><span
+        <a type="button" class="btn btn-lg btn-primary" href="https://github.com/richwxd/heroku-java-getting-started"><span
                 class="glyphicon glyphicon-download"></span> Source on GitHub</a>
     </div>
 </div>
@@ -35,11 +35,11 @@
             <h3><span class="glyphicon glyphicon-info-sign"></span> How this sample app works</h3>
             <ul>
                 <li>This app was deployed to Heroku, either using Git or by using <a
-                        href="https://github.com/heroku/java-getting-started">Heroku Button</a> on the repository.
+                        href="https://github.com/richwxd/heroku-java-getting-started">Heroku Button</a> on the repository.
                 </li>
 
                 <li>When Heroku received the source code, it fetched all the dependencies in the <a
-                        href="https://github.com/heroku/java-getting-started/blob/master/pom.xml">pom.xml</a>, creating
+                        href="https://github.com/richwxd/heroku-java-getting-started/blob/master/pom.xml">pom.xml</a>, creating
                     a slug.
                 </li>
                 <li>The platform then spins up a dyno, a lightweight container that provides an isolated environment in
@@ -58,10 +58,10 @@
                 </li>
                 <li>If you deployed this app by deploying the Heroku Button, then in a command line shell, run:</li>
                 <ul>
-                    <li><code>git clone https://github.com/heroku/java-getting-started.git</code> - this will create a
+                    <li><code>git clone https://github.com/richwxd/heroku-java-getting-started.git</code> - this will create a
                         local copy of the source code for the app
                     </li>
-                    <li><code>cd java-getting-started</code> - change directory into the local source code repository
+                    <li><code>cd heroku-java-getting-started</code> - change directory into the local source code repository
                     </li>
                     <li><code>heroku git:remote -a &lt;your-app-name></code> - associate the Heroku app with the
                         repository
